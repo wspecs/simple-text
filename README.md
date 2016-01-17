@@ -1,10 +1,14 @@
 # simple-text
 
 ## Installation
-``` npm install
+```
+npm install
+```
 
 ## Test
-``` mocha
+```
+mocha
+```
 
 ## LICENSE
 MIT License.
