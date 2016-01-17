@@ -1,2 +1,1 @@
-wspecs-lib
 # simple-text
