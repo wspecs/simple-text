@@ -1,18 +1,30 @@
 {
   "name": "simple-text",
-  "version": "1.0.0",
-  "description": "A library to remove accented letters from a text",
-  "main": "index.js",
-  "devDependencies": {
-    "assert": "^1.3.0"
-  },
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "wspecs/simple-text",
   "scripts": {
-    "test": "mocha"
+    "build": "rm -rf dist && tsc",
+    "test": "mocha ./dist/test/*.js"
   },
   "keywords": [
-    "simpleText",
-    "simple-text"
+    "tsm",
+    "starter",
+    "tsm-starter"
   ],
-  "author": "Wendly Saintil",
-  "license": "MIT"
+  "author": {
+    "name": "Wendly Saintil",
+    "email": "wendlysaintil@gmail.com",
+    "url": "author.url"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.0.2",
+    "@types/chai": "^4.1.3",
+    "@types/mocha": "^5.2.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
 }
